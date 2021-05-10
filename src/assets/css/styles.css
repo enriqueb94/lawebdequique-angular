@@ -1,0 +1,175 @@
+/* css general */
+*{
+    box-sizing: border-box;
+    font-family: montserrat-regular;
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: montserrat-extra-bold;
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+
+.container{
+    padding-top: 2rem;
+}
+
+/* header section */
+
+header{
+    min-height: 60vh;
+    margin: 0px auto;
+    font-family: montserrat-regular;
+}
+
+@media (max-width: 968px) {
+    header{
+        width: 100%;
+    }
+}
+
+.navbar-nav{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'montserrat-extra-bold';
+}
+
+.img-circular{
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/enrique.jpg');
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+    text-align:center;
+}
+
+.img-circular-div{
+    padding: 1.2rem;
+}
+
+.botonera{
+    padding: 1.2rem;
+}
+
+.pt-md-11, py-md-11{
+    padding-top: 3rem !important;
+}
+
+@media (min-width:768px){
+    .pt-md-11, .py-md-11 {
+    padding-top: 6rem !important;
+    }
+}
+
+.texto-header{
+    padding-top: 3rem;
+}
+
+/* shappe header - acerca */
+
+.shappe {
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+}
+
+@media (min-width:768px){
+    .shappe{
+        margin-top: -8rem;
+    }
+}
+
+/* seccion acerca */
+
+.section-acerca{
+    background-color: #F1F4F8;
+    margin-top: -0.1rem;
+    /* min-height: 300px; */
+    transition: all 300ms ease;
+    padding-bottom: 5rem;
+}
+
+.div-acerca{
+    box-shadow: 0px 0px 14px 5px rgba(149, 148, 148, 0.26);
+}
+
+.section-acerca h1{
+    font-family: 'montserrat-bold';
+}
+
+/* section educacion */
+
+.section-educacion{
+    background-color: #F1F4F8;
+    margin-top: -0.1rem;
+    /* min-height: 300px; */
+    transition: all 300ms ease;
+    /* padding-bottom: 10rem; */
+    padding-top: 5rem;
+}
+
+.div-educacion{
+    position: relative;
+    z-index: 2;
+}
+
+.section-educacion h1{
+    font-family: 'montserrat-bold';
+    text-align: center;
+}
+
+.shappe-educacion{
+    z-index: 1;
+    position: relative;
+}
+
+@media (min-width:768px){
+    .shappe-educacion{
+        margin-top: -4rem;
+    }
+}
+
+@media (min-width:1428px){
+    .shappe-educacion{
+        margin-top: -20rem;
+    }
+}
+
+/* seccion skills */
+
+.section-skills{
+    background-color: #1B2A4E;
+    margin-top: -0.1rem;
+    /* min-height: 300px; */
+    transition: all 300ms ease;
+    padding-bottom: 10rem;
+}
+
+.div-skills{
+    box-shadow: 0px 0px 14px 5px rgba(149, 148, 148, 0.26);
+}
+
+.section-skills h1{
+    font-family: 'montserrat-bold';
+    color: white;
+}
