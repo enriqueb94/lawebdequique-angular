@@ -12,6 +12,9 @@ import { HeaderComponent } from './perfil/header/header.component';
 import { AcercaComponent } from './perfil/acerca/acerca.component';
 import { EducacionComponent } from './perfil/educacion/educacion.component';
 import { SkillsComponent } from './perfil/skills/skills.component';
+import { FooterComponent } from './perfil/footer/footer.component';
+import { ProyectosComponent } from './perfil/proyectos/proyectos.component';
+import { ContactoComponent } from './perfil/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SkillsComponent } from './perfil/skills/skills.component';
     HeaderComponent,
     AcercaComponent,
     EducacionComponent,
-    SkillsComponent
+    SkillsComponent,
+    FooterComponent,
+    ProyectosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

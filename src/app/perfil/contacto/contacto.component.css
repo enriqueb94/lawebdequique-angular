@@ -1,0 +1,11 @@
+/* section educacion */
+.section-contacto{
+    background-color: #F1F4F8;
+    transition: all 300ms ease;
+    padding-top: 5rem;
+}
+
+.div-contacto{
+    position: relative;
+    z-index: 2;
+}

@@ -11,6 +11,7 @@
     background-color: var(--bs-dark);
     border-color: var(--bs-gray);
   }
+  
   .form-control-dark:focus {
     color: #fff;
     background-color: var(--bs-dark);
@@ -30,4 +31,71 @@
   .dropdown-toggle {
     outline: 0;
   }
+
   
+/* header section */
+
+header{
+  min-height: 60vh;
+  margin: 0px auto;
+  font-family: montserrat-regular;
+}
+
+@media (max-width: 968px) {
+  header{
+      width: 100%;
+  }
+}
+
+.navbar-nav{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'montserrat-extra-bold';
+}
+
+.img-circular{
+  width: 250px;
+  height: 250px;
+  background-image: url('../../../assets/images/enrique.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 50%;
+  text-align:center;
+}
+
+.img-circular-div{
+  padding: 1.2rem;
+}
+
+.botonera{
+  padding: 1.2rem;
+}
+
+.pt-md-11, py-md-11{
+  padding-top: 3rem !important;
+}
+
+@media (min-width:768px){
+  .pt-md-11, .py-md-11 {
+  padding-top: 6rem !important;
+  }
+}
+
+.texto-header{
+  padding-top: 3rem;
+}
+
+/* shappe header*/
